@@ -168,7 +168,7 @@ winPopup.querySelector('.again').addEventListener('click', function () {
 	newQ();
 });
 
-rulesLink.addEventListener('click', function () { //rules
+rulesLink.addEventListener('click', function () { // rules
 	rules.classList.toggle('active');
 	rulesOverlay.classList.toggle('active');
 	if (!rules.hasClass('active')) {
@@ -188,7 +188,7 @@ rules.querySelector('.close').addEventListener('click', function () {
 	kotae.focus();
 });
 
-document.addEventListener('keyup', function(e) { //esc
+document.addEventListener('keyup', function(e) { // esc
 	if (e.keyCode == 27) {
 		rules.classList.remove('active');
 		rulesOverlay.classList.remove('active');
@@ -196,6 +196,6 @@ document.addEventListener('keyup', function(e) { //esc
 	}
 });
 
-document.querySelector('.focus-overlay').addEventListener('click', function () { //stay focused
+document.querySelector('.focus-overlay').addEventListener('click', function () { // avoid double-click
 	kotae.focus();
 });

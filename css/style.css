@@ -179,7 +179,7 @@ a:hover,
     background: rgba(222,45,42,.1);
 }
 
-@-webkit-keyframes wrong {
+@keyframes wrong {
     0% {
         transform: scale3d(.5,.5,1);
         opacity: 1;
@@ -370,5 +370,3 @@ a:hover,
 .win .ya-share2 {
     margin-top: 16px;
 }
-
-

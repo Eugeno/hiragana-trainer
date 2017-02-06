@@ -73,13 +73,13 @@ var answers = [
 var currentOrder = [];
 
 var shuffleOrder = function (array) {
-	var shuffable = array.slice();
+  var shuffable = array.slice();
   var shuffled = [];
-	for (var i = 0; i < array.length; i++) {
-		var randomElement = Math.floor(Math.random() * shuffable.length);
+  for (var i = 0; i < array.length; i++) {
+    var randomElement = Math.floor(Math.random() * shuffable.length);
     shuffled.push(shuffable[randomElement]);
-		shuffable.splice(randomElement, 1);
-	}
+    shuffable.splice(randomElement, 1);
+  }
   return shuffled;
 };
 
@@ -192,5 +192,5 @@ rulesOverlay.addEventListener('click', hideRules);
 rules.querySelector('.close').addEventListener('click', hideRules);
 
 document.querySelector('.focus-overlay').addEventListener('click', function () { // avoid double-click
-	kotae.focus();
+  kotae.focus();
 });

@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.2.3 (June 10, 2017)
+
+* Remove base64 from kanas, merge into sprite
+* Remove unnecessary rules from Normalize.css
+* Add minified versions
+* Minor improvements
+
 ### 1.2.2 (June 10, 2017)
 
 * Add changelog

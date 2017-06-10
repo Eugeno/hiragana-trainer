@@ -95,15 +95,15 @@ var updateOrder = function (recipient, donor) {
 currentOrder = shuffleOrder(questions);
 
 var newQuestion = function () {
-  shitsumon.classList.remove('k' + kana); //delete last question
-  shitsumon.classList.remove('right'); //delete from last question
-  kotae.value = ''; //delete last answer
+  shitsumon.classList.remove('k' + kana); // delete last question
+  shitsumon.classList.remove('right'); // delete from last question
+  kotae.value = ''; // delete last answer
   kotae.removeAttribute('disabled');
   kotae.focus();
   kana = currentOrder[currentOrder.length - 1];
-  shitsumon.classList.add('k' + kana); //load image
+  shitsumon.classList.add('k' + kana); // load image
 };
-newQuestion(); //first launch
+newQuestion(); // first launch
 
 kotae.addEventListener('keyup', function (e) { // input
   if (e.keyCode === ENTER_KEY_CODE) {

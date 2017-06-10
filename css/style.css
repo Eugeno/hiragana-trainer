@@ -19,8 +19,6 @@ html {
     height: 100%;
     color: #333;
     background: #fff;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
 }
 
 body {
@@ -85,9 +83,7 @@ a:hover,
     margin-right: auto;
     margin-left: auto;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background: no-repeat center / contain;
 }
 
 .shitsumon.k1 {
@@ -207,27 +203,37 @@ a:hover,
 .shitsumon.k39 {
     background-image: url(../img/kanas.svg#k39);
 }
-.shitsumon.k40 {
-    background-image: url(../img/kanas.svg#k40);
-}
-.shitsumon.k41 {
-    background-image: url(../img/kanas.svg#k41);
-}
-.shitsumon.k42 {
-    background-image: url(../img/kanas.svg#k42);
-}
-.shitsumon.k43 {
-    background-image: url(../img/kanas.svg#k43);
-}
-.shitsumon.k44 {
-    background-image: url(../img/kanas.svg#k44);
-}
-.shitsumon.k45 {
-    background-image: url(../img/kanas.svg#k45);
-}
-.shitsumon.k46 {
-    background-image: url(../img/kanas.svg#k46);
-}
+.shitsumon.k40 { background-image: url(../img/kanas.svg#k40); }
+.shitsumon.k41 { background-image: url(../img/kanas.svg#k41); }
+.shitsumon.k42 { background-image: url(../img/kanas.svg#k42); }
+.shitsumon.k43 { background-image: url(../img/kanas.svg#k43); }
+.shitsumon.k44 { background-image: url(../img/kanas.svg#k44); }
+.shitsumon.k45 { background-image: url(../img/kanas.svg#k45); }
+.shitsumon.k46 { background-image: url(../img/kanas.svg#k46); }
+.shitsumon.k47 { background-image: url(../img/kanas.svg#k47); }
+.shitsumon.k48 { background-image: url(../img/kanas.svg#k48); }
+.shitsumon.k49 { background-image: url(../img/kanas.svg#k49); }
+.shitsumon.k50 { background-image: url(../img/kanas.svg#k50); }
+.shitsumon.k51 { background-image: url(../img/kanas.svg#k51); }
+.shitsumon.k52 { background-image: url(../img/kanas.svg#k52); }
+.shitsumon.k53 { background-image: url(../img/kanas.svg#k53); }
+.shitsumon.k54 { background-image: url(../img/kanas.svg#k54); }
+.shitsumon.k55 { background-image: url(../img/kanas.svg#k55); }
+.shitsumon.k56 { background-image: url(../img/kanas.svg#k56); }
+.shitsumon.k57 { background-image: url(../img/kanas.svg#k57); }
+.shitsumon.k58 { background-image: url(../img/kanas.svg#k58); }
+.shitsumon.k59 { background-image: url(../img/kanas.svg#k59); }
+.shitsumon.k60 { background-image: url(../img/kanas.svg#k60); }
+.shitsumon.k61 { background-image: url(../img/kanas.svg#k61); }
+.shitsumon.k62 { background-image: url(../img/kanas.svg#k62); }
+.shitsumon.k63 { background-image: url(../img/kanas.svg#k63); }
+.shitsumon.k64 { background-image: url(../img/kanas.svg#k64); }
+.shitsumon.k65 { background-image: url(../img/kanas.svg#k65); }
+.shitsumon.k66 { background-image: url(../img/kanas.svg#k66); }
+.shitsumon.k67 { background-image: url(../img/kanas.svg#k67); }
+.shitsumon.k68 { background-image: url(../img/kanas.svg#k68); }
+.shitsumon.k69 { background-image: url(../img/kanas.svg#k69); }
+.shitsumon.k70 { background-image: url(../img/kanas.svg#k70); }
 
 /* animation */
 .shitsumon::after {
@@ -391,14 +397,46 @@ a:hover,
     cursor: pointer;
     transition: all .1s ease;
     opacity: 0;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMS40IDIxLjQiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOm5vbmU7c3Ryb2tlOiNlNWU1ZTU7c3Ryb2tlLW1pdGVybGltaXQ6MTA7c3Ryb2tlLXdpZHRoOjJweDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPtGH0LTRidGL0YM8L3RpdGxlPjxsaW5lIGNsYXNzPSJhIiB4MT0iMC43IiB5MT0iMC43IiB4Mj0iMjAuNyIgeTI9IjIwLjciLz48bGluZSBjbGFzcz0iYSIgeDE9IjAuNyIgeTE9IjIwLjciIHgyPSIyMC43IiB5Mj0iMC43Ii8+PC9zdmc+);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20px 20px;
+}
+
+.rules .close::before,
+.rules .close::after {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% - 14px);
+    width: 28px;
+    height: 2px;
+    content: "";
+    background: #e5e5e5;
+}
+
+.rules .close::before {
+    transform: rotate(-45deg);
+}
+
+.rules .close::after {
+    transform: rotate(45deg);
 }
 
 .rules.active .close {
     transition: all .3s ease;
+    opacity: 1;
+}
+
+/* dakuten */
+.dakuten {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: .12;
+    background: url(../img/dakuten.svg) no-repeat center / 40px 40px;
+}
+
+.dakuten.active {
     opacity: 1;
 }
 

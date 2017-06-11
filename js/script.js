@@ -66,7 +66,8 @@ var ANSWERS = [
   ['о', 'o', 'во', 'wo'],
   ['н', 'n']
 ];
-
+var ANSWERS_LENGTH = ANSWERS.length;
+var TIP_URL = 'https://plainjapanese.ru/basics/0-1-abc';
 var ADDITIONAL_ANSWERS = [
   ['га', 'ga'],
   ['ги', 'gi'],
@@ -94,6 +95,7 @@ var ADDITIONAL_ANSWERS = [
   ['пэ', 'pe', 'пе'],
   ['по', 'po']
 ];
+var TIP_URL_ADDITIONAL = 'https://plainjapanese.ru/basics/0-6-abc-again';
 
 var answers;
 var questions;
@@ -193,6 +195,11 @@ function ready() {
         }
       }
       if (falls > 2) { // tip
+        if (kana > ANSWERS_LENGTH) {
+          tip.setAttribute('href', TIP_URL_ADDITIONAL);
+        } else {
+          tip.setAttribute('href', TIP_URL);
+        }
         tip.classList.add('active');
       } else {
         tip.classList.remove('active');

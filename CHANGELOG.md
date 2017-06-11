@@ -1,6 +1,10 @@
 # Changelog
 
-### 1.3.1 (June 10, 2017)
+### 1.3.2 (June 11, 2017)
+
+* Improve tip
+
+### 1.3.1 (June 11, 2017)
 
 * Bug fixes, small improvements
 

@@ -244,6 +244,7 @@ a:hover,
     z-index: 5;
     right: -84px;
     bottom: 50%;
+    display: block;
     box-sizing: border-box;
     width: 84px;
     padding: 1em 1.5em;

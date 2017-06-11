@@ -113,7 +113,7 @@ function shuffleQuestions () {
 function shuffleOrder (array) {
   var shuffable = array.slice();
   var shuffled = [];
-  for (var i = 0; i < array.length; i++) {
+  for (var i = 0, l = array.length; i < l; i++) {
     var randomElement = Math.floor(Math.random() * shuffable.length);
     shuffled.push(shuffable[randomElement]);
     shuffable.splice(randomElement, 1);
@@ -122,7 +122,7 @@ function shuffleOrder (array) {
 }
 
 function updateOrder (recipient, donor) {
-  for (var i = 0; i < recipient.length; i++) {
+  for (var i = 0, l = recipient.length; i < l; i++) {
     donor.splice(donor.indexOf(recipient[i]), 1);
   }
   return donor.concat(recipient);

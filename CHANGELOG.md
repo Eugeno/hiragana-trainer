@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.3.1 (June 10, 2017)
+
+* Bug fixes, small improvements
+
 ### 1.3 (June 10, 2017)
 
 * Add possibility to include kanas with diacritics

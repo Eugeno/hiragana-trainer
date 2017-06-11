@@ -82,127 +82,48 @@ a:hover,
     max-height: 100vw;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 50%;
     background: no-repeat center / contain;
 }
 
-.shitsumon.k1 {
-    background-image: url(../img/kanas.svg#k1);
-}
-.shitsumon.k2 {
-    background-image: url(../img/kanas.svg#k2);
-}
-.shitsumon.k3 {
-    background-image: url(../img/kanas.svg#k3);
-}
-.shitsumon.k4 {
-    background-image: url(../img/kanas.svg#k4);
-}
-.shitsumon.k5 {
-    background-image: url(../img/kanas.svg#k5);
-}
-.shitsumon.k6 {
-    background-image: url(../img/kanas.svg#k6);
-}
-.shitsumon.k7 {
-    background-image: url(../img/kanas.svg#k7);
-}
-.shitsumon.k8 {
-    background-image: url(../img/kanas.svg#k8);
-}
-.shitsumon.k9 {
-    background-image: url(../img/kanas.svg#k9);
-}
-.shitsumon.k10 {
-    background-image: url(../img/kanas.svg#k10);
-}
-.shitsumon.k11 {
-    background-image: url(../img/kanas.svg#k11);
-}
-.shitsumon.k12 {
-    background-image: url(../img/kanas.svg#k12);
-}
-.shitsumon.k13 {
-    background-image: url(../img/kanas.svg#k13);
-}
-.shitsumon.k14 {
-    background-image: url(../img/kanas.svg#k14);
-}
-.shitsumon.k15 {
-    background-image: url(../img/kanas.svg#k15);
-}
-.shitsumon.k16 {
-    background-image: url(../img/kanas.svg#k16);
-}
-.shitsumon.k17 {
-    background-image: url(../img/kanas.svg#k17);
-}
-.shitsumon.k18 {
-    background-image: url(../img/kanas.svg#k18);
-}
-.shitsumon.k19 {
-    background-image: url(../img/kanas.svg#k19);
-}
-.shitsumon.k20 {
-    background-image: url(../img/kanas.svg#k20);
-}
-.shitsumon.k21 {
-    background-image: url(../img/kanas.svg#k21);
-}
-.shitsumon.k22 {
-    background-image: url(../img/kanas.svg#k22);
-}
-.shitsumon.k23 {
-    background-image: url(../img/kanas.svg#k23);
-}
-.shitsumon.k24 {
-    background-image: url(../img/kanas.svg#k24);
-}
-.shitsumon.k25 {
-    background-image: url(../img/kanas.svg#k25);
-}
-.shitsumon.k26 {
-    background-image: url(../img/kanas.svg#k26);
-}
-.shitsumon.k27 {
-    background-image: url(../img/kanas.svg#k27);
-}
-.shitsumon.k28 {
-    background-image: url(../img/kanas.svg#k28);
-}
-.shitsumon.k29 {
-    background-image: url(../img/kanas.svg#k29);
-}
-.shitsumon.k30 {
-    background-image: url(../img/kanas.svg#k30);
-}
-.shitsumon.k31 {
-    background-image: url(../img/kanas.svg#k31);
-}
-.shitsumon.k32 {
-    background-image: url(../img/kanas.svg#k32);
-}
-.shitsumon.k33 {
-    background-image: url(../img/kanas.svg#k33);
-}
-.shitsumon.k34 {
-    background-image: url(../img/kanas.svg#k34);
-}
-.shitsumon.k35 {
-    background-image: url(../img/kanas.svg#k35);
-}
-.shitsumon.k36 {
-    background-image: url(../img/kanas.svg#k36);
-}
-.shitsumon.k37 {
-    background-image: url(../img/kanas.svg#k37);
-}
-.shitsumon.k38 {
-    background-image: url(../img/kanas.svg#k38);
-}
-.shitsumon.k39 {
-    background-image: url(../img/kanas.svg#k39);
-}
+.shitsumon.k1 { background-image: url(../img/kanas.svg#k1); }
+.shitsumon.k2 { background-image: url(../img/kanas.svg#k2); }
+.shitsumon.k3 { background-image: url(../img/kanas.svg#k3); }
+.shitsumon.k4 { background-image: url(../img/kanas.svg#k4); }
+.shitsumon.k5 { background-image: url(../img/kanas.svg#k5); }
+.shitsumon.k6 { background-image: url(../img/kanas.svg#k6); }
+.shitsumon.k7 { background-image: url(../img/kanas.svg#k7); }
+.shitsumon.k8 { background-image: url(../img/kanas.svg#k8); }
+.shitsumon.k9 { background-image: url(../img/kanas.svg#k9); }
+.shitsumon.k10 { background-image: url(../img/kanas.svg#k10); }
+.shitsumon.k11 { background-image: url(../img/kanas.svg#k11); }
+.shitsumon.k12 { background-image: url(../img/kanas.svg#k12); }
+.shitsumon.k13 { background-image: url(../img/kanas.svg#k13); }
+.shitsumon.k14 { background-image: url(../img/kanas.svg#k14); }
+.shitsumon.k15 { background-image: url(../img/kanas.svg#k15); }
+.shitsumon.k16 { background-image: url(../img/kanas.svg#k16); }
+.shitsumon.k17 { background-image: url(../img/kanas.svg#k17); }
+.shitsumon.k18 { background-image: url(../img/kanas.svg#k18); }
+.shitsumon.k19 { background-image: url(../img/kanas.svg#k19); }
+.shitsumon.k20 { background-image: url(../img/kanas.svg#k20); }
+.shitsumon.k21 { background-image: url(../img/kanas.svg#k21); }
+.shitsumon.k22 { background-image: url(../img/kanas.svg#k22); }
+.shitsumon.k23 { background-image: url(../img/kanas.svg#k23); }
+.shitsumon.k24 { background-image: url(../img/kanas.svg#k24); }
+.shitsumon.k25 { background-image: url(../img/kanas.svg#k25); }
+.shitsumon.k26 { background-image: url(../img/kanas.svg#k26); }
+.shitsumon.k27 { background-image: url(../img/kanas.svg#k27); }
+.shitsumon.k28 { background-image: url(../img/kanas.svg#k28); }
+.shitsumon.k29 { background-image: url(../img/kanas.svg#k29); }
+.shitsumon.k30 { background-image: url(../img/kanas.svg#k30); }
+.shitsumon.k31 { background-image: url(../img/kanas.svg#k31); }
+.shitsumon.k32 { background-image: url(../img/kanas.svg#k32); }
+.shitsumon.k33 { background-image: url(../img/kanas.svg#k33); }
+.shitsumon.k34 { background-image: url(../img/kanas.svg#k34); }
+.shitsumon.k35 { background-image: url(../img/kanas.svg#k35); }
+.shitsumon.k36 { background-image: url(../img/kanas.svg#k36); }
+.shitsumon.k37 { background-image: url(../img/kanas.svg#k37); }
+.shitsumon.k38 { background-image: url(../img/kanas.svg#k38); }
+.shitsumon.k39 { background-image: url(../img/kanas.svg#k39); }
 .shitsumon.k40 { background-image: url(../img/kanas.svg#k40); }
 .shitsumon.k41 { background-image: url(../img/kanas.svg#k41); }
 .shitsumon.k42 { background-image: url(../img/kanas.svg#k42); }
@@ -374,7 +295,7 @@ a:hover,
     max-height: 100%;
     padding: 1.5em 2em;
     transition: all .1s ease;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
     color: transparent;
     border-radius: 5px;
     background: rgba(255,255,255,0);
@@ -383,7 +304,7 @@ a:hover,
 
 .rules.active {
     visibility: visible;
-    transition: all .3s ease;
+    transition: .3s ease;
     color: #333;
     background: rgba(255,255,255,.95);
     box-shadow: 0 0 20px rgba(0,0,0,.05);
@@ -396,7 +317,7 @@ a:hover,
     width: 52px;
     height: 52px;
     cursor: pointer;
-    transition: all .1s ease;
+    transition: .1s ease;
     opacity: 0;
 }
 
@@ -472,7 +393,7 @@ a:hover,
     max-height: 100%;
     padding: 2em;
     transition: all .1s ease;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: transparent;
     border-radius: 5px;
@@ -482,7 +403,7 @@ a:hover,
 
 .win.active {
     visibility: visible;
-    transition: all .3s ease;
+    transition: .3s ease;
     color: #333;
     background: rgba(255,255,255,.85);
     box-shadow: 0 0 20px rgba(0,0,0,.05);
@@ -493,7 +414,7 @@ a:hover,
 }
 
 .win.active .again {
-    transition: all .3s ease;
+    transition: .3s ease;
 }
 
 .win .ya-share2 {
